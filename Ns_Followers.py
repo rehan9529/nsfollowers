@@ -13,7 +13,8 @@ class Ns_Followers:
 
         self.__userid='66815687795' #Enter UserID Here
         self.__username='rehxnnn_smartyyy' #Enter UserName Here
-        self._session='...' #Enter SessionID Here
+        self._session='https://www.instagram.com/rehxnnn_smartyyy?igsh=cXp6cTJzM2M2cGxq
+       ' #Enter SessionID Here
 
         self.__Pk=self.__userid.encode()+b'*'+str(random.randint(111,999)).encode()
         self.__Ip=os.urandom(8).hex().encode()+b'*'+str(random.randint(111,999)).encode()
